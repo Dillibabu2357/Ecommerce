@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  border: 0;
+}
+.test-container{
+  color:blue
+}
+.navSection{
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  color: white;
+}
+.productSection{
+  display: flex;
+}
