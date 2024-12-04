@@ -13,7 +13,7 @@ const Furniture = () => {
             firstFiveFurniture.map((item)=>{
                 return(
                     <div className='imageBox' >
-                        <img className='imageSection' src={item.image} alt="" />
+                        <img className='imageSection'  src={item.image} alt="" />
                     </div>
                 )
             })
