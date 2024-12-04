@@ -1,14 +1,15 @@
 import React from "react"
-import { mobileData } from "../data/mobiles"
+import { tvData } from "../data/tv"
 
-const Mobiles = () => {
-  const firstFiveImages = mobileData.slice(0, 5)
+const Tv = () => {
+
+    const firstFiveTV = tvData.slice(0,5);
 
   return (
     <>
-      <h1 className="TitleSection" >Mobiles</h1>
+      <h1 className="TitleSection" >TV</h1>
       <div className="productSection">
-        {firstFiveImages.map((item) => {
+        {firstFiveTV.map((item) => {
           return (
             <div className="imageBox">
               <img className="imageSection" src={item.image} alt="" />
@@ -20,4 +21,4 @@ const Mobiles = () => {
   )
 }
 
-export default Mobiles
+export default Tv

@@ -15,3 +15,9 @@
 .productSection{
   display: flex;
 }
+.imageBox{
+  width: 80%;
+}
+.imageSection{
+  width: 100%;
+}
