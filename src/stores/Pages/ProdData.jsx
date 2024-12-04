@@ -1,18 +1,17 @@
 import React from "react"
 import { mobileData } from "../data/mobiles"
-import Navbar from "./Navbar"
+import Navbar from "../components/Navbar"
 
-const Prodata = () => {
-
-  const firstFiveProdata = mobileData.slice(0, 5)
+const ProData = () => {
 
   return (
+
     <>
     <Navbar/>
       <h1 className="TitleSection" >Prodata</h1>
       <div className="productSection">
         {
-        firstFiveProdata.map((item) => {
+        mobileData.map((item) => {
           return (
             <div className="imageBox">
               <img className="imageSection" src={item.image} />
@@ -25,4 +24,4 @@ const Prodata = () => {
   )
 }
 
-export default Prodata
+export default ProData

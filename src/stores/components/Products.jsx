@@ -11,6 +11,7 @@ import Mobile from './Mobile'
 import Speaker from './Speaker'
 import Tv from './Tv'
 import Watch from './Watch'
+import Prodata from './Prodata'
 
 const Products = () => {
   return (
@@ -25,6 +26,7 @@ const Products = () => {
       <Furniture/>
       <Kitchen/>
       <Men/>
+      <Prodata/>
       <Mobile/>
       <Speaker/>
       <Tv/>

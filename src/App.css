@@ -42,3 +42,7 @@ body{
   background-color: rgb(175, 46, 29);
   padding: 10px;
 }
+.productImage{
+  display: grid;
+  grid-template-columns: repeat(4,350px);
+}
