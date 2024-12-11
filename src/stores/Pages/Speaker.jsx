@@ -15,7 +15,7 @@ const Speaker = () => {
                 <img className="imageSection" src={item.image} />
               </div>
               <div>
-                {item.model},{"Rupee" + item.price}
+                {item.model},{" Rupee" +  item.price}
               </div>
             </div>
           )
